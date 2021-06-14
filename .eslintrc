@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es2021": true
+
+  },
+  "extends": ["standard-react","standard"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "jsx-quotes": ["error","prefer-double"],
+    "space-before-function-paren": "off",
+    "lines-between-class-members": "off"
+  }
+}
